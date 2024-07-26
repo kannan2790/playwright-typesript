@@ -1,0 +1,13 @@
+{
+  "name": "playwright-typesript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/kannan2790/playwright-typesript.git",
+  "author": "kannan2790 <kannan2790@yahoo.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.45.3",
+    "@types/node": "^20.14.12"
+  },
+  "scripts": {}
+}
