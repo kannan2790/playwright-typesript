@@ -23,5 +23,9 @@ class Login{
     async click_to_register(){
         await this.page.locator("//a[contains(text(),'Register')]").click()
     }
+    async verify_error_message(str : string){
+        const err = await this.page.locator("//p[@class='error']").textContent()
+        expect(err).toBe(str)
+    }
 }
 export default Login
