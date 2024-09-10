@@ -11,3 +11,6 @@
 
     docker build -t pw .
     docker run --rm pw 
+
+# Parabank tests
+https://parabank.parasoft.com/parabank/index.htm
